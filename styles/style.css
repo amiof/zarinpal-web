@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "iranyekanwebmedium";
+}
+
+header {
+    width: 1178px;
+    height: 40px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    backdrop-filter: 20px;
+    background-color: rgba(255, 255, 255, 0.70);
+    transition: all 0.3s ease;
+    
+    
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.arow{
+    width: 8px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+   
+
+}
+header nav ul li {
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+
+
+}
+
+
+/* header nav li:last-child{ */
+.myzarin {
+    background-color: #f1f5fe;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 0px;
+    
+
+    
+    
+}
+ a{
+    font-family: YekanBakhBold;
+}
+/* header nav li:last-child:hover { */
+.myzarin:hover {
+  background-color: #FBF7D9;
+}
+.hamber{
+    display: none;
+}
+
+.app-ham {
+    background-color: #ffffff;
+    position: fixed;
+    top:0; 
+    right:0 ;
+    width: 100%;
+    /* font-size: 27px; */
+    z-index: 1;
+    display: none;
+
+
+}
+.app-ham ul {
+    list-style: none;
+}
+.app-ham li:first-child {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.app-ham li {
+    padding: 5px;
+}
+.app-ham a{
+    font-size: 15px;
+    padding: 20px;
+    font-family: iranyekanwebmedium;
+    margin-right: 20px ;
+}
+.app-ham div {
+    /* margin: auto; */
+    width: 70%;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 10px 40px 10px 0px;
+}
+.app-ham li:last-child {
+    margin-top: 20px;
+    background-color: #EEEEEE ;
+    padding: 20px;
+}
+.more-box {
+    display: flex  ;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    border-top: 5px solid #F8E88B;
+    position: relative;
+    right: -30px;
+    top: 15px;
+    display: none;
+}
+.product {
+    position: relative;
+}
+
+.prodoct-box {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 400px;
+    /* flex-direction: row; */
+    border-radius: 20px;
+    border-top: 5px solid #F8E88B;
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    left: 350px;
+    display: none;
+  
+    
+}
+
+.prodoct-box ul {
+    display: flex;
+    flex-direction: column;
+}
+.prodoct-box li {
+    padding: 10px ;
+    padding-left: 10px;
+}
+
+.baner {
+    width: 1178px;
+    margin: auto;
+    height: 672px;
+    display: flex;
+    border-radius: 30px;
+    background-image: linear-gradient(135deg,#21254e,#2b4a83);
+    position: relative;
+
+}
+.img-baner img {
+    width: 500px; 
+    /* padding: 20px;    */
+    margin-top: 100px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.baner-text {
+    padding-right: 90px;
+    margin: 90px 35px;
+    color: #ffffff;
+    line-height: 2rem;
+    font-family: YekanBakhMedium;
+}
+.baner-text h1 {
+    line-height: 4rem;
+    
+    
+
+}
+.baner-buttem {
+    margin: 70px 0px;
+}
+.register {
+    background-color: #FFDC08;
+    padding: 8px 20px ;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-left: 10px;
+   
+    
+
+
+}
+.login {
+    background-color: #435A8A;
+    padding: 8px 30px ;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+
+}
+.arowbottem {
+    /* border: 1px solid black; */
+    
+    /* position: relative; */
+}
+.arowbottem img {
+    width: 150px;
+    position: absolute;
+    bottom: -35px;
+    
+    right: 500px;
+    /* margin: auto; */
+    
+
+
+}
+.arrow-down {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 565px;
+    bottom: 0px;
+    /* border: 1px solid black; */
+   
+    
+   
+}
+.section2 {
+    display: flex;
+    width: 1178px;
+    height: 500px;
+    margin: auto;
+    padding: 70px;
+    justify-content:space-evenly;
+    /* border: 1px solid black; */
+}
+.img-sec{
+    width: 500px;
+    height: 460px;
+    
+   
+    
+    /* border: 1px solid black; */
+ 
+    
+    
+}
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+.text-pay {
+     margin-left: auto;
+     margin-top: 60px;
+     /* border: 1px solid black; */
+    width: 600px;
+    
+}
+.text-pay h2 {
+    line-height: 3rem;
+    font-family: iranyekanwebmedium;
+}
+.text-pay h2:first-child {
+    color: #8f8f99;
+    font-size: 20px;
+}
+    
+
+.text-pay p {
+
+    line-height: 2rem;
+    padding: 20px;
+    font-family: iranyekanwebmedium;
+    padding-left: 0px;
+    text-align: right;
+    font-size: 14px;
+}
+.text-pay div {
+     border-top: 1px solid #dfe1e4;
+     width: 90%;
+}
+.text-pay a {
+    margin: 50px 5px;
+    padding: 5px 15px;
+    display: inline-block;
+    background-color:#EFF3FD;
+    border-radius: 10px;
+    font-size: 1rem;
+    
+}
+.text-pay a:first-child{
+    
+    background-color:#FFDC08;
+
+}
+.article-j {
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: iranyekanwebmedium;
+}
+.jadval-right  {
+    width: 50%;
+
+}
+.jadval-right p{
+    font-size: 0.95rem;
+    line-height: 2rem;
+    margin-top: 32px;
+  
+    
+}
+.jadval {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 100px;
+    
+}
+.jj {
+  padding: 20px 20px 20px 20px;
+  font-size: 1rem;
+  
+}
+.jj p {
+    line-height: 2rem;
+    margin-top: 20px;
+}
+.first {
+    border-bottom: 1px solid #e8ebed;
+    border-left: 1px solid #e8ebed;
+}
+.second {
+    border-bottom: 1px solid #e8ebed;
+}
+.third {
+    border-left: 1px solid #e8ebed;
+}
+
+
+@media  (max-width:1199px) {
+    header {
+        width: 941px;
+    }
+    
+}
+@media (max-width:990px) {
+
+    header nav ul li:last-child {
+        display: none;
+    }
+    header {
+        width: auto;
+    }
+   
+}
+@media (max-width:766px) {
+    header nav ul {
+        display: none;
+    }
+    .hamber{
+        display:block;
+        margin-left: 20px;
+    }
+    header {
+        width: auto;
+    }
+}
