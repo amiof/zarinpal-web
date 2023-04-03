@@ -8,7 +8,7 @@ zarinpal-web
   <a href="">
     <img
       alt="html"
-      src="https://img.shields.io/badge/html-%2357A143.svg?&style=for-the-badge&logo=Html5&logoColor=white"
+      src="https://img.shields.io/badge/html-red.svg?&style=for-the-badge&logo=Html5&logoColor=white"
     />
   </a>
   <a href="https://react.dev/">
